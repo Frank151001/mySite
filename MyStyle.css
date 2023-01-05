@@ -1,0 +1,35 @@
+/*GLOBAL SECTION*/
+body{
+    font-family: Arial;
+    background-color: lightgray;
+    text-align: justify;
+}
+h3{
+    background-color: rgb(13, 58, 9);
+    border-bottom: solid black;
+    border: solid black;
+    width: 28%;
+    font-size: 20px;
+    color:rgb(231, 229, 227)
+}
+/* Utilities */
+
+/* Header */
+.Tittle{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(148, 135, 21);
+    text-align: center;
+    
+}
+.SubTittle{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration:rgb(148, 135, 21) dashed underline overline;
+    line-height: 0.2cm;
+}
+/* Main */
+.Bio-Section{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
