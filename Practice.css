@@ -1,0 +1,32 @@
+.First-List{
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(44, 43, 43);
+}
+ul{
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(197, 194, 194);
+}
+
+ul.First-List li{
+    list-style-type: circle;
+    color: rgb(211, 175, 16);
+    background-color: rgb(87, 84, 87);
+    margin:5px 0 5px 0;
+    padding: 5px;
+}
+ol.First-List li{
+    list-style-type: circle;
+    color: rgb(51, 22, 22);
+    background-color: rgb(199, 206, 198);
+    margin:5px 0 5px 0;
+    padding: 5px;
+}
+ul li{
+    list-style-type: circle;
+    color: rgb(194, 92, 25);
+    background-color: rgb(44, 43, 43);
+    margin:5px 0 5px 0;
+    padding: 5px;
+}

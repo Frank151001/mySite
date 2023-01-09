@@ -1,35 +1,53 @@
 /*GLOBAL SECTION*/
 body{
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
     background-color: lightgray;
     text-align: justify;
 }
 h3{
     background-color: rgb(13, 58, 9);
-    border-bottom: solid black;
     border: solid black;
-    width: 28%;
+    margin: auto;
+    width:min-content;
+    display: inline;
     font-size: 20px;
     color:rgb(231, 229, 227)
 }
 /* Utilities */
-
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
 /* Header */
+header{
+    flex-basis: 20%;  
+}
+.Tittle,.SubTittle,.Imagen{
+    text-align: center;
+    text-transform: uppercase;
+}
 .Tittle{
     font-size: 40px;
-    text-transform: uppercase;
     text-shadow: 3px 3px rgb(148, 135, 21);
-    text-align: center;
-    
 }
 .SubTittle{
     font-size: 20px;
-    text-transform: uppercase;
-    text-decoration:rgb(148, 135, 21) dashed underline overline;
-    line-height: 0.2cm;
+    text-decoration:rgb(148, 135, 21) underline overline;
+}
+.Personal-Information{
+    font-size: 12px;
 }
 /* Main */
+main{
+    flex-basis:78%;  
+}
 .Bio-Section{
     font-size: 15px;
     font-family: 'Times New Roman';
 }
+.vl {
+    margin: 1%;
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 750px;
+  }
